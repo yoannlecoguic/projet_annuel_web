@@ -3,10 +3,10 @@ var app = express();
 var mysql      = require('mysql');
 
 var connection = mysql.createConnection({
-	host     : 'localhost',
-	user     : 'root',
+	host     : '',
+	user     : '',
 	password : '',
-	database : 'gextra'
+	database : ''
 });
 
 app.get('/', function (req, res) {
